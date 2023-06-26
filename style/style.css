@@ -1,0 +1,471 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+  }
+
+  .cnopki {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffc400;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px 10px 0px 0px;
+  }
+
+  
+  header {
+    background-color: #fdfdfd;
+    color: #fff;
+    padding: 20px;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    color: #000000;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  nav a:hover {
+    background-color: #ca9009;
+  }
+
+  
+  section {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    
+  }
+
+  
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 200px;
+    text-align: center;
+
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .header_glavnoe {
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+
+  }
+
+  .zagolovk {
+    font-size: 36px;
+    
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffc400;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .message {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  }
+
+
+
+  .text_osnovnoi {
+    text-align:left;
+   font-size: 25px;
+   
+  }
+
+
+  
+  .Kontakt {
+    font-size: 25px;
+    text-align:left;
+  }
+
+
+  .Kontaktnaim {
+  
+    font-size: 25px;
+    margin: 0px 0px 00px 10px;
+   
+  }
+  .Kontaktnaimgmail {
+    
+    font-size: 20px;
+    margin: 0px 0px 00px 10px;
+    text-decoration: none;
+  }
+
+  .Kontaktnaphone {
+    font-size: 23px;
+    margin: 0px 0px 00px 10px;
+    text-decoration: none;
+  }
+  .Kontaktnaphone2 {
+    font-size:21px;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+  }
+
+  .row {
+  overflow: auto;
+  }
+
+   .col-50 {
+    width: 50%;
+    float: left;
+   }
+
+   .contacte {
+    margin: 0px 10px 10px 10px;
+    border: 2px solid #ffc400;
+    border-radius: 5px;
+    background-color: #ffffffc9;
+
+   }
+   
+   .sectionkontakt {
+    text-align:left;
+    
+   }
+   .chat {
+    text-align:center;
+   }
+
+   .container {
+    margin: 50px 10px 10px 10px;
+  }
+
+  .scamtext {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ffc400;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .contacte, .cform {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #f3deca5c;
+    padding: 5px 5%;
+    height: 325px;
+    }
+    .cform input, .cform textarea{
+    width: 100%;
+    font-size: 15px; margin-bottom: 10px;
+    border-radius: 5px;
+    }
+
+    
+
+      
+      
+    .icons {
+      display: flex; column-gap: 25px;
+      }
+      .icon {
+        padding: 10px 10px 10px 10px;
+      display: inline-flex;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      outline: 2px solid #b91313;
+      transition-property:
+      outline-offset,
+      outline-color, 
+      background-color;
+      transition-duration: 0.25s;
+      }
+
+      .icon_icon_insta {
+      padding: 10px 10px 10px 10px;
+      display: inline-flex;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      outline: 2px solid #814747;
+      transition-property: outline-offset, outline-color, 
+      background-color;
+      transition-duration: 0.25s;
+      }
+      .icon_teleg_facebok {
+        padding: 10px 10px 10px 10px;
+        display: inline-flex;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        outline: 2px solid #5879b5;
+        transition-property: outline-offset, outline-color, 
+        background-color;
+        transition-duration: 0.25s;
+        }
+
+      .icon_icon_insta:hover {
+        outline-offset: 4px;
+        }
+        .icon i { margin: auto;
+        }
+        .icon:hover {
+        animation: shake 0.25s;
+        }
+        
+        .icon_teleg_facebok:hover {
+          outline-offset: 4px;
+          }
+          .icon i { margin: auto;
+          }
+          .icon:hover {
+          animation: shake 0.25s;
+          }
+
+      .icon:hover {
+      outline-offset: 4px;
+      }
+      .icon i { margin: auto;
+      }
+      .icon:hover {
+      animation: shake 0.25s;
+      }
+  
+      .containersobsenie {
+        text-align: center;
+        padding-left: 20px;
+      }
+
+
+     /* button color  */
+     
+     .buttondvoinoi {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      padding: 10px 0px 0px 0px;
+      
+      
+      
+     }
+     .decorationbutton { 
+      color: #000000;   /* button color text */
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      width: 90px;
+      height: 20px;    
+     }
+
+      .decoration_uznati_bolose {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        padding: 10px 0px 0px 0px;
+      }
+
+      .decoration_uznati_bolose_buton {
+      color: #010101; /* button color text */
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      width: 90px;
+      height: 35px;  
+      }
+
+    
+
+     
+
+     button { 
+      border-radius: 5px;
+       text-transform: uppercase; 
+       Letter-spacing: 0.1em;
+       padding: 10px 30px;
+       transition: 0.5s;
+       position: relative;
+       font-size: 17px; 
+       background: #000000;
+       border: none;
+       color: #fff;
+       
+    }
+
+    button:hover {
+      Letter-spacing: 0.25em;
+      background: #e7e730; 
+      color: #e7e730;
+      box-shadow: 0 0 45px #e7e730; 
+      
+    }
+
+    button::before {
+      content:"";
+      position: absolute;
+      inset: 2px;
+      background: #ffffff;
+      
+      
+    }
+
+    button span {
+    position: relative; 
+    z-index: 1;
+    
+    }
+
+    button i {
+      position: absolute;
+      inset: 0;
+      display: block;
+      
+      }
+
+  
+
+    button i::before {
+      content:""; 
+      position: absolute;
+      border: 2px solid #ff0202;
+      width: 7px;
+      height: 4px;
+      top: -3.5px;
+      Left: 80%;
+      background: #222222;
+      transform: translateX(-50%);
+       transition: 0.5s;
+       
+      }
+
+      button:hover i::before { 
+        width: 20px;
+        left: 20%;
+        
+        }
+
+        button i::after { 
+          content:"";
+          position: absolute;
+          border: 2px solid #3743ec;
+          width: 7px;
+          height: 4px;
+          bottom: -3.5px;
+          left: 20%;
+          background: #222222;
+           transform: translateX(-50%);
+          transition: 0.5s;
+          
+          }
+          
+            
+            
+
+          button:hover i::after {
+             width: 20px;
+             left: 80%;
+             
+          }
+        /* end button color */
+ 
+        .harta {
+          width: 800px;
+          height: 400px; 
+          display: block;
+          margin: auto;
+          text-align: center;
+        }
+
+        .centertext {
+          text-align: center;
+            
+        }
+
+        .soobshestvo {
+         text-align: center;
+         text-align: justify;
+        }
+
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+        
+        iframe {
+          max-width: 100%;
+          max-height: 100%;
+        }
+        
+
+        /* button_uznati_bolishe */
+
+        .uznati_bolishe_buton {
+          display:flex;
+          flex-direction: row;
+          justify-content: center; 
+          align-items: center;
+        }
+
+        .button {
+          position:relative;
+          display: inline-block;
+          cursor: pointer;
+          outline: none;
+          border: 0;
+          vertical-align: middle;
+          text-decoration: none;
+          background: transparent;
+          padding:0;
+          font-size: inherit;
+        }
+
+        button.learn-more {
+          width: 12rem;
+          height: auto;
+        }
+        
+
+        
+
+
+
+
+
+
+        
+
+
+
+
+
+
+      
+
+
+
